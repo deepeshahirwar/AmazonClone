@@ -1,0 +1,55 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+} 
+body{
+    background-color: rgb(27, 27, 27);
+} 
+.leftnav{ 
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    color: white;  
+    background-color: rgb(27, 27, 27); 
+    height: 40px;
+    width: 100%; 
+    border-bottom: 2px solid white; 
+
+}  
+.inner1{
+    display: flex; 
+    justify-content: center;
+    align-items: center;  
+    justify-content:space-between; 
+} 
+.leftnav ul li a{
+    text-decoration: none; 
+    color: white; 
+    font-size: 18px;
+} 
+.leftnav ul li {
+    display: inline-block;
+}  
+
+.logo{
+ color: white;
+} 
+.logo h3{
+    font-size: 20px; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+} 
+ 
+/* for right navbar */  
+
+.rightnav{ 
+    color: white; 
+    font-size: 17px;  
+} 
+button{
+    border: none; 
+    width: 8em;
+    height: 2em; 
+    font-size: larger;  
+    font-weight: 500;
+}
